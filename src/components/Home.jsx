@@ -1,17 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { NavHeaders } from '../layouts/NavHeaders'
 
-import NavHeaders from '../layouts/NavHeaders'
-import Productos from '../pages/Productos'
+import { Productos } from '../pages/Productos'
 
-export class Home extends Component {
-  render() {
-    return (
-      <div>Home
-        <NavHeaders />
-        <Productos />
-      </div>
-    )
-  }
+export const Home = () => {
+  return (
+    <div>
+      <NavHeaders />
+      
+      <Productos />
+    </div>
+  )
 }
-
-export default Home
