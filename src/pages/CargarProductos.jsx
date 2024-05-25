@@ -1,6 +1,7 @@
 import React from 'react'
 
 export const CargarProductos = () => {
+  
   return (
     <div>
         <h2>Agregar Productos</h2>

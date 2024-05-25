@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export const NavHeaders = () => {
+  
   return (
     <div>
       <nav>
@@ -15,7 +16,10 @@ export const NavHeaders = () => {
             
             <li className='transition hover:bg-blue-600 hover:text-gray-200'><Link to='/carrito'>Carrito</Link></li>
             <li className='transition hover:bg-blue-600 hover:text-gray-200'><Link to='/perfil'>Usuario</Link></li>
+
+            
             <li>
+              {/*buscador*/}
                 <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 12a2 2 0 100-4 2 2 0 000 4zM21 21l-6-6"></path>
